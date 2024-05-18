@@ -7,7 +7,7 @@
 .Container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(145deg, #3333cc, #3d3d5c);
+    background: linear-gradient(135deg, #ffcc81, #2eb82e);
     padding: 10px;
 }
 .ToDo-App {
@@ -15,7 +15,7 @@
     max-width: 540px;
     background: #fff;
     margin: 100px auto 20px;
-    padding: 40px 30px 100px; /*top right bottom left*/
+    padding: 30px 30px 30px; /*top right bottom left*/
     border-radius: 10px;
 }
 .ToDo-App h1 {
@@ -30,7 +30,7 @@
 }
 .Row {
     display: flex;
-    align-itmes: center;
+    align-items: center;
     justify-content: space-between;
     background: #e6f3ff;
     border-radius: 30px;
@@ -43,4 +43,37 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+    font-weight:700;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ffcc81;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 8px 15px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/circle.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: 8px;
 }
