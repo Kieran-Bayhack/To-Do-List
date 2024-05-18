@@ -4,3 +4,9 @@
     font-family: 'Calibiri', sans-serif;
     box-sizing: border-box;
 }
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #3333cc, #3d3d5c);
+    padding: 10px;
+}
