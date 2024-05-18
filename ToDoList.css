@@ -77,3 +77,10 @@ ul li::before{
     top: 7px;
     left: 8px;
 }
+    ul li.Checked{
+        color: #ffcc81;
+        text-decoration: line-through;
+    }
+    ul li.Checked::before {
+        background-image: url(images/shuriken.jpg);
+        }
