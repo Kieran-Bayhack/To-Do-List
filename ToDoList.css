@@ -18,6 +18,13 @@
     padding: 40px 30px 100px ; //top right bottom left
     border-radius: 10px;
 }
+    .ToDo-App h1 {
+        color: #404040;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 .AxeImage{
-    max-width: 100px
+    max-width: 80px;
+    margin-left: 10px;
 }
