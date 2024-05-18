@@ -2,26 +2,26 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>To-Do List App</title>
-            <link rel="stylesheet" href="ToDoList.css" />
-    <body>
-        <div class="Container">
-            <div class="ToDo-App">
-                <h1>To-Do List <img src="images/axe.jpg" class="AxeImage" /></h1>
-                <div class="Row">
-                    <input type="text" id="Input-Box" placeholder="Add your text" />
-                    <button>
-                        Add
-                    </button>
-                </div>
-                <ul id="List-Container">
-                    <!--<li class="Checked">Task 1</li>
-                    <li>Task 2</li>
-                    <li>Task 3</li>-->
-                </ul>
-            </div>
-        </div>
-    </body>
-    
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="ToDoList.css" />
 </head>
+<body>
+    <div class="Container">
+        <div class="ToDo-App">
+            <h1>To-Do List <img src="images/axe.jpg" class="AxeImage" /></h1>
+            <div class="Row">
+                <input type="text" id="Input-Box" placeholder="Add your text" />
+                <button onclick="addTask()">
+                    Add
+                </button>
+            </div>
+            <ul id="List-Container">
+                <!--<li class="Checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>-->
+            </ul>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
 </html>
