@@ -4,9 +4,20 @@
     font-family: 'Calibiri', sans-serif;
     box-sizing: border-box;
 }
-.container {
+.Container {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(145deg, #3333cc, #3d3d5c);
     padding: 10px;
+}
+.ToDo-App{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 100px ; //top right bottom left
+    border-radius: 10px;
+}
+.AxeImage{
+    max-width: 100px
 }
