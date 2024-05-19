@@ -17,6 +17,12 @@ function addTask(){
     saveData(); //call saveData function for local storage
 }
 
+document.getElementById('Input-Box').addEventListener('keypress', function (e) { //event listener to add task from text box to list when the 'enter' key is pressed
+    if (e.key === 'Enter') {
+        addTask();
+    }
+});
+
 listContainer.addEventListener("click", function (e) { //add event listener for clicking on list item
     if (e.target.tagName === "LI") {
         e.target.classList.toggle("Checked"); //checks list item to show that it is complete

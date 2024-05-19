@@ -7,7 +7,7 @@
 .Container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #ffcc81, #2eb82e);
+    background: linear-gradient(135deg, #1a1a1a, #0000cc);
     padding: 10px;
 }
 .ToDo-App {
@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 .ToDo-App h1 {
-    color: #404040;
+    color: #000;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -49,20 +49,20 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ffcc81;
-    color: #000;
+    background: #0000cc;
+    color: #fff;
     font-weight: 700;
     font-size: 15px;
     cursor: pointer;
     border-radius: 30px;
 }
-button:hover{
-    color: white;
-}
+    button:hover {
+        background: linear-gradient(135deg, #1a1a1a, #0000cc);
+    }
 ul li{
     list-style: none;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 12px 8px 15px 40px;
     user-select: none;
     cursor: pointer;
@@ -100,5 +100,8 @@ ul li::before{
         border-radius: 50%;
     }
         ul li span:hover {
-            background: #ffcc81;
+            background: linear-gradient(135deg, #1a1a1a, #0000cc);
+            color: white;
         }
+
+
